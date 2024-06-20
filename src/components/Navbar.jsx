@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18n from '../i18n';
+import logo from '../assets/images/gold-2.png';
 
 export default function Navbar() {
     const [menuActive, setMenuActive] = useState(false);
@@ -39,7 +40,7 @@ export default function Navbar() {
                 <div className="nav-wrapper grid">
                     <div className="flex justify-between items-center gap-1">
                         <Link to="/" className="logo">
-                            <img className="m-auto" src="assets/images/gold-2.png" alt="Logo" />
+                            <img className="m-auto" src={logo} alt="Logo" />
                         </Link>
                         <div className="input-holder flex items-center">
                             <input type="search" placeholder={t('search_placeholder')} />
@@ -102,7 +103,7 @@ export default function Navbar() {
                                 </div>
                                 <div className="dropdown">
                                 <span className="mr-1">
-                                          <i class="fa fa-cog text-white fs-200"></i>
+                                          <i className="fa fa-cog text-white fs-200"></i>
                                     </span>
                               
                                     <a href="/" className="link fw-bold fs-200 m-1 " onClick={(e) => { e.preventDefault(); toggleDropdown('projectsProgrammes'); }}>{t('projects_programmes')} <span className="ml-1"><i className="fas fa-caret-down"></i></span></a>
@@ -128,7 +129,7 @@ export default function Navbar() {
                                 </div>
                                 <div className="dropdown">
                                 <span className="mr-1">
-                                         <i class="fa fa-file-audio text-white fs-200"></i>
+                                         <i className="fa fa-file-audio text-white fs-200"></i>
                                     </span>
                                
                                     <a href="/" className="link fw-bold fs-200 m-1 " onClick={(e) => { e.preventDefault(); toggleDropdown('mediaCenter'); }}>{t('media_center')} <span className="ml-1"><i className="fas fa-caret-down"></i></span></a>

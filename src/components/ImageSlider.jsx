@@ -1,11 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '../assets/css/ImageSlider.css';
+import desert from '../assets/images/slider/desert.jpg';
+import beach from '../assets/images/slider/beach.jpg';
+import castle from '../assets/images/slider/castle.jpg';
+import mosque from '../assets/images/slider/mosque.jpg';
 
 const images = [
-    { id: 1, url: 'assets/images/slider/desert.jpg' },
-    { id: 2, url: 'assets/images/slider/beach.jpg' },
-    { id: 3, url: 'assets/images/slider/castle.jpg' },
-    { id: 4, url: 'assets/images/slider/mosque.jpg' },
+    { id: 1, url: desert },
+    { id: 2, url: beach },
+    { id: 3, url: castle },
+    { id: 4, url: mosque },
 ];
 
 const ImageSlider = () => {

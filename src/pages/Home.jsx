@@ -4,11 +4,27 @@ import Footer from "../components/Footer";
 import ImageSlider from "../components/ImageSlider";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import overlay from '../assets/images/youtube-back.png';
 import { useTranslation } from "react-i18next";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Aos from "aos";
+/* Images Importation */
+
+import heroImg from '../assets/images/hero-img.jpg';
+import aboutImg from '../assets/images/about.png';
+import projectsImg from '../assets/images/projects.png';
+import reportsImg from '../assets/images/reports.png';
+import regulationsImg from '../assets/images/regulations.png';
+import volunteeringImg from '../assets/images/volunteering.png';
+import newsImg from '../assets/images/news.png';
+import galleryImg from '../assets/images/gallery.png';
+import partner1Img from '../assets/images/partners/partner-1.png';
+import partner2Img from '../assets/images/partners/partner-2.png';
+import partner3Img from '../assets/images/partners/partner-3.png';
+import partner4Img from '../assets/images/partners/partner-4.png';
+import playButtonImg from '../assets/images/play-button.png';
+import overlay from '../assets/images/youtube-back.png';
+
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -42,7 +58,7 @@ export default function Home() {
           <div className="container">
             <h1 className="fs-500 mt-3 mb-4 fw-semi-bold">{t('welcome')}</h1>
             <div className="banner rounded">
-              <img src="assets/images/hero-img.jpg" alt="Banner Image" />
+            <img src={heroImg} alt="Banner Image" />
             </div>
           </div>
         </section>
@@ -50,43 +66,43 @@ export default function Home() {
           <div className="container">
             <div className="even-columns items-center justify-center p-4">
               <div className="box" data-aos="zoom-in">
-                <img src="assets/images/about.png" alt="About Us" />
+              <img src={aboutImg} alt="About Us" />
                 <button className="bg-secondary border-none mt-3">
                   <Link className="text-white fw-bold" to="/about-us">{t('about_us')}</Link>
                 </button>
               </div>
               <div className="box" data-aos="zoom-in" data-aos-delay="100">
-                <img src="assets/images/projects.png" alt="Our Projects" />
+              <img src={projectsImg} alt="Our Projects" />
                 <button className="bg-secondary border-none mt-3">
                   <Link className="text-white fw-bold" to="/our-projects">{t('our_projects')}</Link>
                 </button>
               </div>
               <div className="box" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/images/reports.png" alt="Reports" />
+              <img src={reportsImg} alt="Reports" />
                 <button className="bg-secondary border-none mt-3">
                   <Link className="text-white fw-bold" to="/reports">{t('reports')}</Link>
                 </button>
               </div>
               <div className="box" data-aos="zoom-in" data-aos-delay="300">
-                <img src="assets/images/regulations.png" alt="Regulations" />
+              <img src={regulationsImg} alt="Regulations" />
                 <button className="bg-secondary border-none mt-3">
                   <Link className="text-white fw-bold" to="/regulations">{t('regulations')}</Link>
                 </button>
               </div>
               <div className="box" data-aos="zoom-in" data-aos-delay="400">
-                <img src="assets/images/volunteering.png" alt="Volunteering" />
+              <img src={volunteeringImg} alt="Volunteering" />
                 <button className="bg-secondary border-none mt-3">
                   <Link className="text-white fw-bold" to="/volunteering">{t('volunteering')}</Link>
                 </button>
               </div>
               <div className="box" data-aos="zoom-in" data-aos-delay="500">
-                <img src="assets/images/news.png" alt="Our News" />
+              <img src={newsImg} alt="Our News" />
                 <button className="bg-secondary border-none mt-3">
                   <Link className="text-white fw-bold" to="/our-news">{t('our_news')}</Link>
                 </button>
               </div>
               <div className="box" data-aos="zoom-in" data-aos-delay="600">
-                <img src="assets/images/gallery.png" alt="Gallery" />
+              <img src={galleryImg} alt="Gallery" />
                 <button className="bg-secondary border-none mt-3">
                   <Link className="text-white fw-bold" to="/gallery">{t('gallery')}</Link>
                 </button>
@@ -148,22 +164,22 @@ export default function Home() {
           <div className="container">
             <div className="even-columns items-center gap-1 m-auto">
               <div className="box" data-aos="fade-up" data-aos-delay="100">
-                <img src="assets/images/partners/partner-1.png" alt="Partner 1" />
+              <img src={partner1Img} alt="Partner 1" />
               </div>
               <div className="box" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/images/partners/partner-2.png" alt="Partner 2" />
+              <img src={partner2Img} alt="Partner 2" />
               </div>
               <div className="box" data-aos="fade-up" data-aos-delay="300">
-                <img src="assets/images/partners/partner-3.png" alt="Partner 3" />
+              <img src={partner3Img} alt="Partner 3" />
               </div>
               <div className="box" data-aos="fade-up" data-aos-delay="400">
-                <img src="assets/images/partners/partner-4.png" alt="Partner 4" />
+              <img src={partner4Img} alt="Partner 4" />
               </div>
               <div className="box" data-aos="fade-up" data-aos-delay="500">
-                <img src="assets/images/partners/partner-1.png" alt="Partner 1" />
+              <img src={partner1Img} alt="Partner 5" />
               </div>
               <div className="box" data-aos="fade-up" data-aos-delay="600">
-                <img src="assets/images/partners/partner-2.png" alt="Partner 2" />
+              <img src={partner2Img} alt="Partner 6" />
               </div>
             </div>
           </div>
@@ -188,7 +204,8 @@ export default function Home() {
                       <div className="overlay p-absolute">
                         <img src={overlay} alt="Overlay" className="overlay-image" />
                         <div className="dark-overlay" onClick={handleOverlayClick}></div>
-                        <img className="play-icon p-absolute" src="assets/images/play-button.png" alt="Play Button" onClick={handleOverlayClick} />
+                        <img className="play-icon p-absolute" src={playButtonImg} alt="Play Button" onClick={handleOverlayClick} />
+
                       </div>
                     </>
                   )}

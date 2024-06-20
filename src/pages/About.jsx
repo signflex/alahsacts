@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import proofImage from '../assets/images/proof.png';
+
 import { useTranslation } from "react-i18next";
 
 export default function About() {
@@ -9,7 +11,7 @@ export default function About() {
     <>
       <Navbar />
       <main>
-        <section className="bg-brown-200 p-2">
+        <section className="bg-secondary p-2">
           <div className="container flex justify-center">
             <h1 className="fs-500 text-white">{t("about_us_dropdown.who_we_are")}</h1>
           </div>
@@ -19,7 +21,8 @@ export default function About() {
           <div className="container">
             <div className="even-columns gap-1-5">
               <div className="registre-proof bg-brown-100 p-3">
-                <img className="registre-proof__img m-auto" src="assets/images/proof.png" alt="" />
+                <img className="registre-proof__img m-auto" src={proofImage} alt="" />
+
                 <div className="about-info text-box mt-3">
 
                   <h2 className="text-primary fs-400 fw-bold">{t('about_association')}</h2>
