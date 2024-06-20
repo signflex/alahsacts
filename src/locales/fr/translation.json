@@ -1,0 +1,117 @@
+{
+  "welcome": "Bienvenue",
+  "about_us": "À propos de nous",
+  "our_projects": "Nos projets",
+  "reports": "Rapports",
+  "regulations": "Règlements",
+  "volunteering": "Bénévolat",
+  "our_news": "Nos nouvelles",
+  "gallery": "Galerie",
+  "about_association": "À propos de l'association",
+  "about_association_desc": "Une coopérative touristique qui a obtenu sa licence du ministère des Ressources humaines et du Développement social (licence n° 10139) et dont la supervision technique est assurée par le ministère du Tourisme, avec le soutien de consultations de l'entité/Conseil des sociétés coopératives. Le siège principal est situé dans le gouvernorat d'Al-Ahsa, et son champ d'application géographique est le gouvernorat d'Al-Ahsa, où les services seront fournis.",
+  "our_vision": "Notre Vision",
+  "our_vision_desc": "Préserver le patrimoine historique, archéologique, culturel, naturel et rural du Royaume, enrichir les ressources humaines qui caractérisent le gouvernorat d'Al-Ahsa et les employer de manière durable dans le développement du tourisme sous ses diverses formes. L'association s'engage à respecter un ensemble de valeurs qu'elle considère comme des points de référence dans l'accomplissement de sa mission, l'exécution de ses responsabilités et dans ses relations.",
+  "our_values": "Nos Valeurs",
+  "values_list": {
+    "transparency": "Transparence",
+    "excellence": "Excellence",
+    "creativity": "Créativité",
+    "teamwork": "Travail d'équipe",
+    "innovation_creativity": "Innovation et Créativité",
+    "trust": "Confiance",
+    "leadership": "Leadership",
+    "initiative": "Initiative",
+    "respect_rights": "Respect des droits",
+    "shared_profitability": "Rentabilité partagée pour les membres et la communauté locale"
+  },
+  "our_goals": "Nos Objectifs",
+  "our_goals_desc": "L'association vise à améliorer la situation économique et sociale de ses membres et des habitants de sa zone de service et cherche à travers ses activités à atteindre les objectifs de la Vision 2030 du Royaume. L'association s'intéresse à la formation et à la qualification des jeunes cadres travaillant dans le secteur du tourisme, à la commercialisation de leurs produits, à leur autonomisation et à leur mise en valeur afin de fournir des services distingués qui améliorent les rendements de ces services pour bénéficier aux actionnaires et aux bénéficiaires de l'association. Elle stimule la mise en œuvre de programmes et d'événements ciblés avec des retours financiers et commercialise les services et leurs fournisseurs.",
+  "partners": "Partenaires",
+  "demonstration_video": "Vidéo de démonstration",
+  "insights": "Aperçus",
+  "insights_desc": "Préserver le patrimoine historique, archéologique, culturel, naturel et rural du Royaume, enrichir les ressources humaines qui caractérisent le gouvernorat d'Al-Ahsa et les employer de manière durable dans le développement du tourisme sous ses diverses formes. L'association s'engage à respecter un ensemble de valeurs qu'elle considère comme des points de référence dans l'accomplissement de sa mission, l'exécution de ses responsabilités et dans ses relations.",
+  "search_placeholder": "rechercher...",
+  "call_us": "Appelez-nous",
+  "home": "Accueil",
+  "projects_programmes": "Projets et programmes",
+  "projects_programmes_dropdown": {
+    "economic_projects": "Projets économiques",
+    "tourist_projects": "Projets touristiques",
+    "entertainment_programs": "Programmes de divertissement",
+    "scientific_programs": "Programmes scientifiques"
+  },
+  "languages": "Langues",
+  "english": "Anglais",
+  "arabic": "Arabe",
+  "french": "Français",
+  "spanish": "Espagnol",
+  "overview": "Aperçu",
+  "policies": "Politiques",
+  "media_center": "Centre Média",
+  "media_center_dropdown": {
+    "gallery": "Galerie photos",
+    "video_library": "Bibliothèque vidéo",
+    "news": "Actualités"
+  },
+  "news": "Nouvelles",
+  "events": "Événements",
+  "suggestion": "Suggestion",
+  "about_us_dropdown": {
+    "who_we_are": "Qui nous sommes",
+    "board_of_directors": "Conseil d'administration",
+    "shareholders": "Actionnaires"
+  },
+  "satisfaction_measurement": "Mesure de la satisfaction",
+  "contributors": "Contributeurs",
+  "privacy_policy": "Politique de confidentialité",
+  "all_rights_reserved": "Tous droits réservés à la Société Coopérative de Tourisme à Ahsa",
+  "soon" : "Le contenu sera bientôt ajouté..",
+  "contact": "Contact",
+  "dont_hesitate": "* N'hésitez pas à nous contacter",
+  "name": "Nom",
+  "email": "Email",
+  "message": "Message",
+  "send": "Envoyer",
+  "sending": "Envoi en cours...",
+  "email_sent_successfully": "Email envoyé avec succès !",
+  "email_send_error": "Une erreur s'est produite lors de l'envoi de l'email. Veuillez réessayer plus tard.",
+  "our_team": "Notre équipe",
+  "team_members": [
+    {
+      "name": "Luna Turner",
+      "role": "Fondatrice",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Bryant Hall",
+      "role": "Développeur",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Hope Watkins",
+      "role": "Designer",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Eliot Moore",
+      "role": "Chef de projet",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Ava Smith",
+      "role": "Spécialiste en marketing",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Oliver Jones",
+      "role": "Designer UI/UX",
+      "linkedin": "#",
+      "email": "#"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "welcome": "Welcome",
+  "about_us": "About Us",
+  "our_projects": "Our Projects",
+  "reports": "Reports",
+  "regulations": "Regulations",
+  "volunteering": "Volunteering",
+  "our_news": "Our News",
+  "gallery": "Gallery",
+  "about_association": "About the association",
+  "about_association_desc": "A tourist cooperative that obtained its license from the Ministry of Human Resources and Social Development (License No. 10139) and its technical supervision is the Ministry of Tourism, with the support of consultations by the entity/Council of Cooperative Societies. The main headquarters is Al-Ahsa Governorate, and its geographical scope is Al-Ahsa Governorate, where services will be provided.",
+  "our_vision": "Our Vision",
+  "our_vision_desc": "Preserving the Kingdom’s historical, archaeological, cultural, natural and rural heritage, enriching the human resources that characterize Al-Ahsa Governorate, and employing them in a sustainable manner in developing tourism in its various forms. The association pledges to adhere to a set of values ​​that it considers as reference points in performing its mission, carrying out its responsibilities, and in its dealings.",
+  "our_values": "Our Values",
+  "values_list": {
+    "transparency": "Transparency",
+    "excellence": "Excellence",
+    "creativity": "Creativity",
+    "teamwork": "Teamwork",
+    "innovation_creativity": "Innovation and Creativity",
+    "trust": "Trust",
+    "leadership": "Leadership",
+    "initiative": "Initiative",
+    "respect_rights": "Respect for Rights",
+    "shared_profitability": "Shared Profitability for Members and Local Community"
+  },
+  "our_goals": "Our Goals",
+  "our_goals_desc": "The association aims to improve the economic and social situation of its members and the people of its service area and seeks through its activities to achieve the goals of the Kingdom’s Vision 2030. The association is interested in training and qualifying young cadres working in the tourism sector, marketing their products, empowering them and highlighting them in order to provide distinguished services that enhance the returns of these services to benefit the association’s shareholders and beneficiaries. It stimulates the implementation of purposeful programs and events with financial returns and markets services and their providers.",
+  "partners": "Partners",
+  "demonstration_video": "Demonstration video",
+  "insights": "Insights",
+  "insights_desc": "Preserving the Kingdom’s historical, archaeological, cultural, natural and rural heritage, enriching the human resources that characterize Al-Ahsa Governorate, and employing them in a sustainable manner in developing tourism in its various forms. The association pledges to adhere to a set of values ​​that it considers as reference points in performing its mission, carrying out its responsibilities, and in its dealings.",
+  "search_placeholder": "search...",
+  "call_us": "Call US",
+  "home": "Home",
+  "projects_programmes": "Projects & Programmes",
+  "projects_programmes_dropdown": {
+    "economic_projects": "Economic Projects",
+    "tourism_projects": "Tourism Projects",
+    "entertainment_programmes": "Entertainment Programmes",
+    "scientific_programmes": "Scientific Programmes"
+  },
+  "languages": "Languages",
+  "english": "English",
+  "arabic": "Arabic",
+  "french": "French",
+  "spanish": "Spanish",
+  "overview": "Overview",
+  "policies": "Policies",
+  "media_center": "Media Center",
+  "media_center_dropdown": {
+    "gallery": "Photo Gallery",
+    "video_library": "Video Library",
+    "news": "News"
+  },
+  "news": "News",
+  "events": "Events",
+  "suggestion": "Suggestion",
+  "about_us_dropdown": {
+    "board_of_directors": "Board of Directors",
+    "shareholders": "Shareholders",
+    "who_we_are": "Who We Are"
+  },
+  "satisfaction_measurement": "Satisfaction Measurement",
+  "contributors": "Contributors",
+  "privacy_policy": "Privacy Policy",
+  "all_rights_reserved": "All rights reserved to the Tourism Cooperative Society in Ahsa",
+  "soon" : "Content will be added soon..",
+  "contact": "Contact",
+  "dont_hesitate": "* Don't hesitate to reach out to us",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "send": "Send",
+  "sending": "Sending...",
+  "email_sent_successfully": "Email sent successfully!",
+  "email_send_error": "There was an error sending the email. Please try again later.",
+  "our_team": "Our Team",
+  "team_members": [
+    {
+      "name": "Luna Turner",
+      "role": "Founder",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Bryant Hall",
+      "role": "Developer",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Hope Watkins",
+      "role": "Designer",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Eliot Moore",
+      "role": "Project Manager",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Ava Smith",
+      "role": "Marketing Specialist",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Oliver Jones",
+      "role": "UI/UX Designer",
+      "linkedin": "#",
+      "email": "#"
+    }
+  ]
+}

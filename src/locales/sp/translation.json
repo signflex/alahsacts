@@ -1,0 +1,117 @@
+{
+  "welcome": "Bienvenido",
+  "about_us": "Sobre Nosotros",
+  "our_projects": "Nuestros Proyectos",
+  "reports": "Informes",
+  "regulations": "Regulaciones",
+  "volunteering": "Voluntariado",
+  "our_news": "Nuestras Noticias",
+  "gallery": "Galería",
+  "about_association": "Acerca de la asociación",
+  "about_association_desc": "Una cooperativa turística que obtuvo su licencia del Ministerio de Recursos Humanos y Desarrollo Social (Licencia No. 10139) y su supervisión técnica es el Ministerio de Turismo, con el apoyo de consultas de la entidad/Consejo de Sociedades Cooperativas. La sede principal está en la Gobernación de Al-Ahsa, y su alcance geográfico es la Gobernación de Al-Ahsa, donde se prestarán servicios.",
+  "our_vision": "Nuestra Visión",
+  "our_vision_desc": "Preservar el patrimonio histórico, arqueológico, cultural, natural y rural del Reino, enriquecer los recursos humanos que caracterizan la Gobernación de Al-Ahsa y emplearlos de manera sostenible en el desarrollo del turismo en sus diversas formas. La asociación se compromete a adherirse a un conjunto de valores que considera puntos de referencia en el desempeño de su misión, el cumplimiento de sus responsabilidades y en sus tratos.",
+  "our_values": "Nuestros Valores",
+  "values_list": {
+    "transparency": "Transparencia",
+    "excellence": "Excelencia",
+    "creativity": "Creatividad",
+    "teamwork": "Trabajo en Equipo",
+    "innovation_creativity": "Innovación y Creatividad",
+    "trust": "Confianza",
+    "leadership": "Liderazgo",
+    "initiative": "Iniciativa",
+    "respect_rights": "Respeto por los Derechos",
+    "shared_profitability": "Rentabilidad Compartida para Miembros y Comunidad Local"
+  },
+  "our_goals": "Nuestros Objetivos",
+  "our_goals_desc": "La asociación tiene como objetivo mejorar la situación económica y social de sus miembros y de las personas de su área de servicio, y busca a través de sus actividades alcanzar los objetivos de la Visión 2030 del Reino. La asociación está interesada en capacitar y calificar a los jóvenes que trabajan en el sector turístico, comercializar sus productos, empoderarlos y destacarlos para proporcionar servicios distinguidos que aumenten los retornos de estos servicios para beneficiar a los accionistas y beneficiarios de la asociación. Estimula la implementación de programas y eventos con fines y retornos financieros y comercializa servicios y sus proveedores.",
+  "partners": "Socios",
+  "demonstration_video": "Video de demostración",
+  "insights": "Perspectivas",
+  "insights_desc": "Preservar el patrimonio histórico, arqueológico, cultural, natural y rural del Reino, enriquecer los recursos humanos que caracterizan la Gobernación de Al-Ahsa y emplearlos de manera sostenible en el desarrollo del turismo en sus diversas formas. La asociación se compromete a adherirse a un conjunto de valores que considera puntos de referencia en el desempeño de su misión, el cumplimiento de sus responsabilidades y en sus tratos.",
+  "search_placeholder": "buscar...",
+  "call_us": "Llámanos",
+  "home": "Inicio",
+  "projects_programmes": "Proyectos y Programas",
+  "projects_programmes_dropdown": {
+    "economic_projects": "Proyectos Económicos",
+    "tourism_projects": "Proyectos Turísticos",
+    "entertainment_programmes": "Programas de Entretenimiento",
+    "scientific_programmes": "Programas Científicos"
+  },
+  "languages": "Idiomas",
+  "english": "Inglés",
+  "arabic": "Árabe",
+  "french": "Francés",
+  "spanish": "Español",
+  "overview": "Visión general",
+  "policies": "Políticas",
+  "media_center": "Centro de Medios",
+  "media_center_dropdown": {
+    "gallery": "Galería de Fotos",
+    "video_library": "Biblioteca de Videos",
+    "news": "Noticias"
+  },
+  "news": "Noticias",
+  "events": "Eventos",
+  "suggestion": "Sugerencia",
+  "about_us_dropdown": {
+    "board_of_directors": "Junta Directiva",
+    "shareholders": "Accionistas",
+    "who_we_are": "Quiénes Somos"
+  },
+  "satisfaction_measurement": "Medición de Satisfacción",
+  "contributors": "Colaboradores",
+  "privacy_policy": "Política de Privacidad",
+  "all_rights_reserved": "Todos los derechos reservados a la Sociedad Cooperativa de Turismo en Ahsa",
+  "soon": "El contenido se agregará pronto...",
+  "contact": "Contacto",
+  "dont_hesitate": "* No dudes en comunicarte con nosotros",
+  "name": "Nombre",
+  "email": "Correo Electrónico",
+  "message": "Mensaje",
+  "send": "Enviar",
+  "sending": "Enviando...",
+  "email_sent_successfully": "¡Correo enviado con éxito!",
+  "email_send_error": "Hubo un error al enviar el correo. Por favor, inténtalo de nuevo más tarde.",
+  "our_team": "Nuestro equipo",
+  "team_members": [
+    {
+      "name": "Luna Turner",
+      "role": "Fundadora",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Bryant Hall",
+      "role": "Desarrollador",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Hope Watkins",
+      "role": "Diseñadora",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Eliot Moore",
+      "role": "Gerente de Proyecto",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Ava Smith",
+      "role": "Especialista en Marketing",
+      "linkedin": "#",
+      "email": "#"
+    },
+    {
+      "name": "Oliver Jones",
+      "role": "Diseñador UI/UX",
+      "linkedin": "#",
+      "email": "#"
+    }
+  ]
+}

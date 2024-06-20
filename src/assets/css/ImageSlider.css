@@ -1,0 +1,67 @@
+.image-slider {
+    max-width: 100%; /* Make the slider take up 100% of the available width */
+    margin: auto;
+    text-align: center;
+    border-radius: 500px 500px 500px 500px;
+    overflow: hidden;
+    min-height: 450px;
+}
+/* *{
+    border: 2px solid red;
+} */
+.main-image-container {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.main-image {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: 320px;
+    animation: slideInLeft 1s ease-in-out;
+}
+
+.thumbnails-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.thumbnail-image {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, border 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(198, 198, 198, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(121, 117, 117, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(255, 255, 255) 0px -3px 5px;} */
+}
+.thumbnail-image:hover,
+.thumbnail-image.active {
+    transform: scale(1.1);
+    border: 2px solid #007bff; /* Highlight active or hovered thumbnail */
+}
+
+/* Keyframes for slide-in from left animation */
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Keyframes for slide-in from right animation */
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
